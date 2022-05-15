@@ -1,0 +1,137 @@
+.addpilot {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: url("../../../../../assets/images/bg-pilot-form.webp");
+  background-size: cover;
+}
+
+.addpilot__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: calc(100vh - 110px);
+}
+
+.addpilot__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80vw;
+  height: 80%;
+  background: rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+}
+
+.addpilot__form > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50vw;
+  position: relative;
+}
+
+.addpilot__form > div > div {
+  width: 50%;
+  height: 10%;
+  margin-top: 40px;
+}
+
+.addpilot__form > div > div:last-child > textarea {
+  height: 170px;
+}
+
+.addpilot input, .addpilot textarea {
+  border: 0;
+  outline: none;
+  border-bottom: solid black 1px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.addpilot input::-webkit-input-placeholder, .addpilot textarea::-webkit-input-placeholder {
+  color: black;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.addpilot input:-ms-input-placeholder, .addpilot textarea:-ms-input-placeholder {
+  color: black;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.addpilot input::-ms-input-placeholder, .addpilot textarea::-ms-input-placeholder {
+  color: black;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.addpilot input::placeholder, .addpilot textarea::placeholder {
+  color: black;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.addpilot textarea {
+  height: 100%;
+}
+
+.addpilot h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 5px;
+}
+
+.addpilot__btn {
+  background: transparent;
+  color: #c4390e;
+  border: 1.5px solid #c4390e;
+  border-radius: 7px;
+  font-size: 14px;
+  padding: 15px 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+
+.addpilot__btn:hover {
+  background-color: #c4390e;
+  color: black;
+  -webkit-box-shadow: 0px 0px 5px #c4390e, 0px 0px 25px #c4390e, 0px 0px 50px #c4390e, 0px 0px 100px #c4390e;
+          box-shadow: 0px 0px 5px #c4390e, 0px 0px 25px #c4390e, 0px 0px 50px #c4390e, 0px 0px 100px #c4390e;
+}
+/*# sourceMappingURL=add-pilot.component.css.map */

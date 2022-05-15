@@ -1,0 +1,40 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #c4390e;
+  padding-left: 20px;
+  height: 80px;
+  color: white;
+}
+
+.navbar__links-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 200px;
+}
+
+.navbar__link {
+  margin-left: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.navbar__link:last-child {
+  cursor: pointer;
+}
+
+.navbar img {
+  height: 70px;
+  margin-left: 200px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=navbar.component.css.map */

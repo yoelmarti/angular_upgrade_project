@@ -1,0 +1,90 @@
+@charset "UTF-8";
+.detail {
+  margin: 40px 0 0;
+  color: #313638;
+}
+
+.detail__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.detail__name-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.detail__img {
+  -webkit-box-shadow: 0px 0px 62px 41px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 62px 41px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  margin-bottom: 40px;
+  background-image: url("../../../../../assets/images/low-poly-grid-haikei.png");
+}
+
+.detail__description {
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  word-spacing: 0.2em;
+  text-align: justify;
+  width: 75%;
+}
+
+.detail__vehicle-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+.detail__vehicle-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../../../../../assets/images/low-poly-grid-haikei-800x800.png");
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  margin: auto;
+  border-radius: 25px;
+  margin-bottom: 40px;
+}
+
+.detail__vehicle-img {
+  width: 400px;
+  height: 300px;
+  background-size: cover;
+}
+
+.detail__vehicle-info {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 50px;
+}
+
+.detail__back-link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #c4390e;
+}
+
+.detail__back-link::before {
+  content: "🡰";
+}
+/*# sourceMappingURL=pilot-detail.component.css.map */

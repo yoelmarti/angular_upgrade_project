@@ -1,0 +1,70 @@
+.detail{
+    margin: 40px 0 0;
+    color: #313638;
+    // text-align: center;
+    &__card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    &__name-title{
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+    }
+    // &__img-container{
+        
+    // }
+    &__img{
+        box-shadow: 0px 0px 62px 41px rgba(0,0,0,0.1);
+        border-radius: 25px;
+        margin-bottom: 40px;
+        background-image: url('../../../../../assets/images/low-poly-grid-haikei.png');
+        
+    }
+    &__description{
+        font-weight: 100;
+        letter-spacing: 0.05em;
+        word-spacing: 0.2em;
+        text-align: justify;
+        width: 75%;
+    }
+    &__vehicle-title{
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 40px;
+    }
+    &__vehicle-card{
+        display: flex;
+        background-image: url('../../../../../assets/images/low-poly-grid-haikei-800x800.png');
+        justify-content: flex-start;
+        align-items: center;
+        width: 50%;
+        margin: auto;
+        border-radius: 25px;
+        margin-bottom: 40px;
+        
+    }
+    &__vehicle-img{
+        width: 400px;
+        height: 300px;
+        background-size: cover;
+
+    }
+    &__vehicle-info{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-left: 50px;
+    }
+    &__back-link{
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: #c4390e;
+        &::before{
+            content: "🡰";
+        }
+    }
+    
+}

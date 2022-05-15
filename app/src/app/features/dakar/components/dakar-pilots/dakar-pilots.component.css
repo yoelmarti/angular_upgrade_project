@@ -1,0 +1,30 @@
+.pilots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px;
+}
+
+.pilots__card {
+  margin: 10px;
+  text-align: center;
+  border: 2px solid #c4390e;
+  height: 350px;
+  cursor: pointer;
+}
+
+.pilots__img {
+  background-image: url("../../../../../assets/images/blob-haikei.png");
+  background-position: center;
+}
+
+.pilots p {
+  padding-top: 10px;
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=dakar-pilots.component.css.map */

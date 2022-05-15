@@ -1,0 +1,22 @@
+<div class="signup">
+    <div class="signup__container">
+        <form class="signup__form" [formGroup]="signupForm" (ngSubmit)="registerUser()">
+            <h3>sign up</h3>
+            <div>
+                <input type="text" formControlName="name" placeholder="Enter name" required>
+            </div>
+            <div>
+                <input type="email" formControlName="email" placeholder="Enter email" required>
+            </div>
+            <div>
+                <input type="password" formControlName="password" placeholder="Password" required>
+            </div>
+            <div>
+                <input type="text" formControlName="emoji" placeholder="emoji" required>
+            </div>
+            <div>
+                <button class="signup__btn" type="submit">Sign up</button>
+            </div>
+        </form>
+    </div>
+</div>

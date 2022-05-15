@@ -1,0 +1,8 @@
+<div class="pilots">
+    <ng-container   *ngFor="let pilot of pilotList">
+        <div class="pilots__card" routerLink="{{pilot._id}}">
+            <img class="pilots__img" src="{{pilot.image}}" alt="{{pilot.name}}"> 
+            <p class="pilots__name">{{pilot.name}}</p>
+        </div>
+    </ng-container>
+</div>

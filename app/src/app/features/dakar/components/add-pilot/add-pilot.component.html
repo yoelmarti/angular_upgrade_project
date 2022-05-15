@@ -1,0 +1,43 @@
+<div class="addpilot">
+    <div class="addpilot__container">
+        <form class="addpilot__form" [formGroup]="addPilotForm" (ngSubmit)="registerPilot()">
+            <div>
+                <div class="title">
+                    <h3>Pilot register</h3>
+                </div>
+                <div>
+                    <input type="text" formControlName="name" placeholder="name" required>
+                </div>
+                <div>
+                    <input type="email" formControlName="image" placeholder="pilot image link" required>
+                </div>
+                <div class="addpilot__description">
+                    <textarea type="text" formControlName="description" placeholder="description" required></textarea>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <input type="text" formControlName="category" placeholder="category" required>
+                </div>
+                <div>
+                    <input type="text" formControlName="vehicle" placeholder="team" required>
+                </div>
+                <div>
+                    <input type="text" formControlName="brand" placeholder="vehicle brand" required>
+                </div>
+                <div>
+                    <input type="text" formControlName="model" placeholder="vehicle model" required>
+                </div>
+                <div>
+                    <input type="text" formControlName="preparer" placeholder="preparer" required>
+                </div>
+                <div>
+                    <input type="text" formControlName="vehicleImg" placeholder="vehicle image" required>
+                </div>
+                <div>
+                    <button class="addpilot__btn" type="submit">register</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

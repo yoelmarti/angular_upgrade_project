@@ -1,0 +1,62 @@
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../../../assets/images/wave.svg');
+    height: calc(100vh - 100px);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    box-sizing: border-box;
+    &__container{
+        width: 400px;
+        height: 420px;
+        position: relative;
+        background: #0a0a0a;
+        text-transform: uppercase;
+        padding: 50px;
+        text-align: center;
+        border-radius: 25px;
+    }
+    &__form{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    &__btn{
+        background-color: #0a0a0a;
+        color: #c4390e;
+        border: 1.5px solid #c4390e;
+        border-radius: 7px;  
+        font-size: 18px;
+        padding: 15px 20px;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        cursor: pointer;
+    }
+    &__btn:hover{
+        background-color: #c4390e;
+        color: #313638;
+        box-shadow: 0px 0px 5px #c4390e, 0px 0px 25px #c4390e, 0px 0px 50px #c4390e, 0px 0px 100px #c4390e;
+    }
+    input{
+        font-family: "Roboto", sans-serif;
+        outline: 0;
+        background: #f2f2f2;
+        width: 100%;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    h3{
+        color: #c4390e;
+        font-size: 28px;
+        letter-spacing: 4px;
+        font-weight: 400;
+        border-bottom: 1px solid #c4390e;
+        padding-bottom: 10px;
+    }
+}

@@ -1,0 +1,10 @@
+<nav class="navbar">
+    <img src="https://www.dakar.com/img/global/logo.png" alt="dakar-logo" routerLink="">
+    <div class="navbar__links-container">
+        <a class="navbar__link" *ngIf="this.authService.isLoggedIn" routerLinkActive="active" routerLink="dakar-pilots">Competitors</a>
+        <a class="navbar__link" *ngIf="this.authService.isLoggedIn" routerLink="active" routerLink="new-pilot">Add pilot</a>
+        <a class="navbar__link" *ngIf="!this.authService.isLoggedIn" routerLinkActive="active" routerLink="sign-in">Sign In</a>
+        <a class="navbar__link" *ngIf="!this.authService.isLoggedIn" routerLinkActive="active" routerLink="sign-up">Sign UP</a>
+        <p class="navbar__link" (click)="logout()" *ngIf="this.authService.isLoggedIn" type="button">Logout</p>
+    </div>
+</nav>

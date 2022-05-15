@@ -1,0 +1,21 @@
+.pilots{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+    &__card{
+        margin: 10px;
+        text-align: center;
+        border: 2px solid #c4390e;
+        height: 350px;
+        cursor: pointer;
+    }
+    &__img{
+        background-image: url('../../../../../assets/images/blob-haikei.png');
+        background-position: center;
+    }
+    p{
+        padding-top: 10px;
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c4390e;
+    padding-left: 20px;
+    height: 80px;
+    color: white;
+    &__links-container{
+        display: flex;
+        margin-right: 200px;
+    }
+    &__link{
+        margin-left: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        &:last-child{
+            cursor: pointer;
+        }
+    }
+    img{
+        height: 70px;
+        margin-left: 200px;
+        cursor: pointer;
+    }
+
+    
+}
